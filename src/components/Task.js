@@ -18,8 +18,8 @@ function Task({ task, onTglStatus }) {
             <button
               className="button icon-only clear"
               onClick={() => onTglStatus(task)}>
-              {task.complete && "✅"}
-              {!task.complete && "⬜"}
+                {task.complete && "✅"}
+                {!task.complete && "⬜"}
             </button>
           </div>
         </div>

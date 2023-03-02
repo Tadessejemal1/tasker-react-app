@@ -7,7 +7,7 @@ function Task({ task, onTglStatus }) {
             <div className="task-meta">
               <img
                 src="https://icongr.am/feather/calendar.svg?size=12&color=b5b5b5"
-                alt="calendar"
+                alt="calander"
               />
               {task.date}
             </div>

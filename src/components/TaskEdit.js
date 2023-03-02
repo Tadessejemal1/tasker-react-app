@@ -21,7 +21,7 @@ function TaskEdit({ task, onSaveTask }) {
           name="desc"
           id="desc"
           value={desc}
-          onChange={(e) => setDesc(e.target.value)}
+          onChange={(e) => setDesc(event.target.value)}
         />
 
         <label htmlFor="date">Date</label>
@@ -30,7 +30,7 @@ function TaskEdit({ task, onSaveTask }) {
           name="date"
           id="date"
           value={date}
-          onChange={(e) => setDate(e.target.value)}
+          onChange={(e) => setDate(event.target.value)}
         />
 
         <div className="text-right">

@@ -35,7 +35,6 @@ function App() {
   };
 
   const [showTaskEdit, setShowTaskEdit] = useState(false);
-
   const onSaveTask = ({ desc, date }) => {
     console.log("saving tasks");
     setTasks([
